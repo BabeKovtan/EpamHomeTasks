@@ -1,0 +1,12 @@
+дз 1:
+1)css: a.top-navigation__item-link
+2)//div[@class="training-list__container training-list__desktop"]//div[@class="duration-calendar ng-binding"]//ancestor::div[@class="training-item__duration"]//descendant::div[@class="duration-weeks ng-binding"]//div[contains(text(),"1")]-xpath
+3)//div[@class="news-page-item__title"]//a[@class="ng-binding"]-xpath
+4)//div[@class="search-result__item-info"]//a[contains(text(),"Automation")]-xpath
+5)//div[@data-category="past"]//a[@class="button-ui bg-color-light-blue"]//ancestor::li[@class="events-viewer__item"]//descendant::time[contains(text(),"NOVEMBER")]-xpath
+дз 2:
+1)css:table.wikitable.sortable.jquery-tablesorter td:first-child 		xpath://table[@class="wikitable sortable jquery-tablesorter"]//td/a[contains(text(),"USA")]//ancestor::tr/td[last()-4]
+2)css:img[alt="Effective Programming for America logo.svg"]		xpath://img[@alt="Effective Programming for America logo.svg"]
+3)css:		xpath://span[@class="toctext"]//preceding-sibling::span[contains(text(),"2")]
+4)css:div#p-lang a.interlanguage-link-target		xpath://div[@id="p-lang"]//a[@class="interlanguage-link-target"]
+5)css:div#p-tb a		xpath://div[@id="p-tb"]//a
